@@ -1,0 +1,155 @@
+.about__section {
+  padding: 5rem 0;
+  background-color: #f8f9fa;
+}
+
+.about__content {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.about__title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--heading-color);
+}
+
+.about__desc {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-color);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about__item {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.about__item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about__icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--secondary-color);
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+}
+
+.about__icon i {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.about__item h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--heading-color);
+}
+
+.about__item p {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 1.7;
+}
+
+.about__experience {
+  padding: 2rem;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+.about__experience h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--heading-color);
+}
+
+.about__experience p {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.counter__box {
+  text-align: center;
+}
+
+.counter__box span {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.counter__box h6 {
+  font-size: 1rem;
+  color: var(--text-color);
+  margin-top: 0.5rem;
+}
+
+.about__img img {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 992px) {
+  .about__title {
+    font-size: 2rem;
+  }
+
+  .about__desc {
+    font-size: 1rem;
+  }
+
+  .about__item {
+    padding: 1.5rem;
+  }
+
+  .counter__box span {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about__title {
+    font-size: 1.8rem;
+  }
+
+  .about__experience {
+    margin-bottom: 2rem;
+  }
+
+  .counter__wrapper {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .counter__box {
+    flex: 0 0 48%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .counter__box {
+    flex: 0 0 100%;
+  }
+
+  .about__item {
+    margin-bottom: 1.5rem;
+  }
+} 
